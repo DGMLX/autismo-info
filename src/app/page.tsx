@@ -1,5 +1,6 @@
 import { PiSealQuestion } from "react-icons/pi";
 import { IoArrowRedoOutline } from "react-icons/io5";
+import { BiRightArrow } from "react-icons/bi";
 
 import Image from "next/image";
 
@@ -75,10 +76,59 @@ export default function Home() {
 
     </div>
 
-     
+    <div className="flex justify-center">
+     <Image src="/autismo.jpg"  alt="img" width={350} height={50}/>
+      </div>     
+
 
   <div className="">
-   <h3 className="mt-10 text-3xl text-center text-blue-900 font-medium">Manifestaciones Clínicas</h3>
+   <h3 className="mt-10 text-3xl text-center text-blue-900 font-medium mb-10">Manifestaciones Clínicas</h3>
+
+<p className="text-center text-blue-900 text-xl px-5">Gran variabilidad en gravedad y síntomas.</p>
+
+     <h4 className="px-10 my-5 text-lg font-medium text-blue-700">Signos de alarma:</h4>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800"/>
+  <p className="text-blue-900 font-medium">No sonreír a los 6 meses.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={18}/>
+  <p className="text-blue-900 font-medium">No señalar ni responder gestos a los 12 meses.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800"/>
+  <p className="text-blue-900 font-medium">No balbucear a los 12 meses.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800"/>
+  <p className="text-blue-900 font-medium">No decir palabras a los 16 meses.</p>
+</div>
+
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={18}/>
+  <p className="text-blue-900 font-medium">No hacer frases de 2 palabras a los 24 meses.</p>
+</div>
+
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Pérdida de lenguaje o habilidades sociales a cualquier edad.</p>
+</div>
+
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Pérdida de lenguaje o habilidades sociales a cualquier edad.</p>
+</div>
+
+   <p className="text-center  mt-10 text-blue-800">Focos principales: dificultades en lenguaje expresivo/comprensivo y en intereses/actividades restringidas.
+
+      </p>
 
 
   </div>
@@ -86,27 +136,16 @@ export default function Home() {
 
 
      
-      <p>Gran variabilidad en gravedad y síntomas.</p>
+      
 
-      <h4>Signos de alarma:</h4>
+     
 
-      <p>
-        * No sonreír a los 6 meses.
-* No balbucear a los 12 meses.
-* No señalar ni responder gestos a los 12 meses.
-* No decir palabras a los 16 meses.
-* No hacer frases de 2 palabras a los 24 meses.
-* Pérdida de lenguaje o habilidades sociales a cualquier edad.
-* Focos principales: dificultades en lenguaje expresivo/comprensivo y en intereses/actividades restringidas.
+   
 
-      </p>
-
-<div className="flex justify-center">
-
-     <Image src="/autismo.jpg"  alt="img" width={350} height={50}/>
-
+<div className="flex justify-center mt-10 px-5" >
+ <h2 className="text-center text-blue-800 text-3xl font-medium mb-5">Técnicas para trabajar una         desregulación emocional</h2>
       </div>
-      <h2>Técnicas para trabajar una         desregulación emocional</h2>
+     
 
       <p>Las técnicas entregadas mediante esta página son a la hora de abordar una desregulación o situación de necesidad de apoyo, sin embargo ¡recuerda! es vital conocer a nuestros niños desde antes para prevenirlas, el anticipar cada paso que darás y el ambientar un espacio propicio es necesario. </p>
 
