@@ -33,7 +33,7 @@ export default function Home() {
           <h2 className=" text-blue-700 text-2xl px-2 font-medium">Dato curioso</h2>
           <PiSealQuestion className="text-blue-500 text-4xl"/>
           </div>
-          <p className="mt-5 text-blue-900 font-medium text-center">Las mujeres no son diagnositcada en temprano edad debido a qué los “sintomas” las emascaran (desarollar idea).</p>
+          <p className="mt-5 text-blue-900 font-medium text-center">Las mujeres no son diagnositcada en temprano edad debido a qué los “sintomas” las emascaran.</p>
 
           <p className="mt-10  text-blue-900 font-medium text-center" >¿Sabías que antes el TEA se medía por “grados”? Actualmente esto se formuló y fue dividido en “Necesidades de Apoyo”</p>
 
@@ -142,56 +142,120 @@ export default function Home() {
 
    
 
-<div className="flex justify-center mt-10 px-5" >
+<div className=" mt-10 px-5" >
  <h2 className="text-center text-blue-800 text-3xl font-medium mb-5">Técnicas para trabajar una         desregulación emocional</h2>
-      </div>
-     
+    
+      <p className=" text-blue-800">Las técnicas entregadas mediante esta página son a la hora de abordar una desregulación o situación de necesidad de apoyo, sin embargo ¡recuerda! es vital conocer a nuestros niños desde antes para prevenirlas, el anticipar cada paso que darás y el ambientar un espacio propicio es necesario. </p>
 
-      <p>Las técnicas entregadas mediante esta página son a la hora de abordar una desregulación o situación de necesidad de apoyo, sin embargo ¡recuerda! es vital conocer a nuestros niños desde antes para prevenirlas, el anticipar cada paso que darás y el ambientar un espacio propicio es necesario. </p>
-
-      <p>En situaciones de crisis, es fundamental tener en cuenta ciertas estrategias para ayudar a calmar a las personas con Autismo. A continuación, te presentaremos algunas recomendaciones claves:
-
+<br />
+      <p className=" text-blue-800">En situaciones de crisis, es fundamental tener en cuenta ciertas estrategias para ayudar a calmar a las personas con Autismo. A continuación, te presentaremos algunas recomendaciones claves:
 </p>
 
-<p>
+<br />
+<p className="text-blue-800">
   Actúa de forma calmada y tranquila, en una crisis el niño suele estar confundido o asustado. Por lo que, su descargo de emociones puede ser negativa, es decir, no reacciones de manera impulsiva. 
 </p>
 
-<p>
+    <br />
+
+<p className="text-blue-800">
   Contacto físico, si es que existe una relación ya cercana puedes optar por abrazarlo, sin embargo este contacto no debe ser forzado ni obligado, es muy probable que el niño esté muy nervioso y puede perder el autocontrol por completo.
 </p>
 
-<p>
+<br />
+
+<p className="text-blue-800">
   Retiro del entorno o adaptación del entorno, si a situación se vuelve muy intensa, es recomendable llevar al niño o niña a un lugar tranquilo y seguro.El retirar del entorno desencadenante de la crisis puede ayudar a evitar que la situación empeore.
 </p>
 
+<br />
+<p className="text-blue-800">Por otra parte, si no puedes optar por retirar al niño, puedes verificar que fue el desencadenante que causó esta crisis, para luego adaptar el entorno a él. O si no puedes realizar este paso, preocúpate por formar un buen ambiente durante y posterior a la desregulación. </p>
 
-<p>Por otra parte, si no puedes optar por retirar al niño, puedes verificar que fue el desencadenante que causó esta crisis, para luego adaptar el entorno a él. O si no puedes realizar este paso, preocúpate por formar un buen ambiente durante y posterior a la desregulación. </p>
-
-<h2>Estrategias Preventivas</h2>
-<h3>Estrategias sensoriales</h3>
+      </div>
 
 
-<p>* Objetos de estimulación (fidgets spinner, pelotas antiestrés, cubos, slime).
-* Auriculares con cancelación de ruido para reducir sobrecarga auditiva.
-* Mantas con peso para dar presión profunda y sensación de calma.
-* Luces suaves o filtros de pantalla para evitar estímulos visuales fuertes.
-* Espacios tranquilos (zona de calma) donde poder retirarse.</p>
+   <div className="flex justify-center">
+     <Image src="/inclusion.webp"  alt="img" width={350} height={50}/>
+      </div> 
 
-<h3>Estrategias físicas</h3>
-<p>* Ejercicios de respiración profunda (por ejemplo, inhalar 4 segundos, exhalar 6).
-* Movimientos rítmicos (balancearse, caminar, saltar suave en mini trampolín).
-* Técnicas de tensión y relajación muscular.
-* Estiramientos o yoga adaptado.</p>
 
-<h3> Estrategias cognitivas</h3>
-<p>* Uso de guiones sociales para anticipar interacciones.
-* Listas visuales o pictogramas para estructurar el día.
-* Técnicas de auto-instrucción (“Primero respiro, luego pienso, después actúo”).</p>
+<div className="bg-blue-200 px-5 py-5 rounded-t-4xl">
 
-<h2>Punto Clave</h2>
 
-<p>Proporcionar un espacio físico acogedor y organizado puede ayudar a reducir la ansiedad y el estrés en las niños y niñas con Autismo.</p>
+<h2 className="text-center text-3xl font-medium px-5 mt-10 text-blue-800 mb-10">Estrategias Preventivas</h2>
+<h3 className="text-blue-800 font-medium text-xl">Estrategias sensoriales</h3>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Objetos de estimulación (fidgets spinner, pelotas antiestrés, cubos, slime)</p>
+</div>
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium"> Auriculares con cancelación de ruido para reducir sobrecarga auditiva.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium"> Mantas con peso para dar presión profunda y sensación de calma.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Luces suaves o filtros de pantalla para evitar estímulos visuales fuertes.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Espacios tranquilos (zona de calma) donde poder retirarse.</p>
+</div>
+
+
+
+<h3 className="text-blue-800 font-medium text-xl mt-10">Estrategias físicas</h3>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={30}/>
+  <p className="text-blue-900 font-medium">Ejercicios de respiración profunda (por ejemplo, inhalar 4 segundos, exhalar 6)</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={30}/>
+  <p className="text-blue-900 font-medium">Movimientos rítmicos (balancearse, caminar, saltar suave en mini trampolín).</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={16}/>
+  <p className="text-blue-900 font-medium">Técnicas de tensión y relajación muscular.</p>
+</div>
+
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={16}/>
+  <p className="text-blue-900 font-medium">Estiramientos o yoga adaptado.</p>
+</div>
+
+<h3 className="text-blue-800 font-medium text-xl mt-10">Estrategias cognitivas</h3>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Uso de guiones sociales para anticipar interacciones.</p>
+</div>
+
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
+  <p className="text-blue-900 font-medium">Listas visuales o pictogramas para estructurar el día.</p>
+</div>
+<div className="flex items-center px-5 mt-2">
+  <BiRightArrow className="mr-5 text-blue-800" size={35}/>
+  <p className="text-blue-900 font-medium">Técnicas de auto-instrucción (“Primero respiro, luego pienso, después actúo”).</p>
+</div>
+
+
+
+<h2 className="text-center font-bold text-2xl mt-10 text-blue-800 mb-5">Punto Clave</h2>
+ 
+<p className="text-blue-800 pb-10 text-lg">Proporcionar un espacio físico acogedor y organizado puede ayudar a reducir la ansiedad y el estrés en las niños y niñas con Autismo.</p>
+</div>
     </main>
   );
 }
