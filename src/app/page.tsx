@@ -1,4 +1,5 @@
 import { PiSealQuestion } from "react-icons/pi";
+import { IoArrowRedoOutline } from "react-icons/io5";
 
 import Image from "next/image";
 
@@ -38,22 +39,53 @@ export default function Home() {
           
 
       </section>
-      <p className="my-5">¡Aquí te las presentaremos! </p>
+    
+    <div className="bg-blue-200 pt-5 pb-10 rounded-b-4xl px-2">
+        <p className="text-center text-blue-900 font-medium text-2xl">¡Aquí te las presentaremos! </p>
 
-      <p className="mb-4">Necesita Ayuda muy notable </p>
-      <p>- Comunicación: Muy limitada. Casi no habla o usa pocas palabras. Solo interactúa si es imprescindible.</p>
-      <p>- Comportamiento: Muy rígido, no tolera cambios, ansiedad intensa, dificultad para cambiar de tarea. </p>
-
-      <p className="mb-4">Necesita Ayuda notable </p>
-      <p>- Comunicación: Lenguaje simple y centrado en temas muy específicos. Poca interacción, incluso con ayuda.</p>
-      <p>- Comportamiento: Rigidez evidente, dificultad para adaptarse, ansiedad al cambiar de actividad. </p>
+      <div className="mt-10  ">
+         <p className="mb-4 text-center text-lg text-blue-600 font-medium">Necesita Ayuda muy notable </p>
+         <hr className="text-blue-500"/>
+      <p className="flex mt-5"><IoArrowRedoOutline className="text-blue-500 text-5xl mr-2"/>Comunicación: Muy limitada. Casi no habla o usa pocas palabras. Solo interactúa si es imprescindible.</p>
+      <p className="flex mt-2"><IoArrowRedoOutline className="text-blue-500 text-5xl mr-2"/> Comportamiento: Muy rígido, no tolera cambios, ansiedad intensa, dificultad para cambiar de tarea. </p>
 
 
-      <p className="mb-4">Necesita Ayuda </p>
-      <p>- Comunicación: Puede hablar bien, pero le cuesta mantener una conversación fluida. Sus intentos de hacer amigos a veces fallan.</p>
-      <p>- Comportamiento: Algo rígido, le cuesta alternar actividades y organizarse, lo que afecta su independencia.</p>
+      </div>
 
-      <h3 className="mt-10">Manifestaciones Clínicas</h3>
+
+      <div className="mt-10 px-2">
+        <p className="mb-4 text-center text-lg text-blue-600 font-medium">Necesita Ayuda notable </p>
+        <hr className="text-blue-500"/>
+         <p className="flex mt-5"><IoArrowRedoOutline className="text-blue-500 text-5xl mr-2"/>Comunicación: Lenguaje simple y centrado en temas muy específicos. Poca interacción, incluso con ayuda.</p>
+      <p className="flex mt-2"><IoArrowRedoOutline className="text-blue-500 text-5xl mr-2"/> Comportamiento: Rigidez evidente, dificultad para adaptarse, ansiedad al cambiar de actividad. </p>
+       
+
+      </div>
+
+      <div className="mt-10">
+
+     <p className="mb-4 text-center text-lg text-blue-600 font-medium">Necesita Ayuda  </p>
+       <hr className="text-blue-500"/>
+
+       <p className="flex mt-5"><IoArrowRedoOutline className="text-blue-500 text-5xl mr-2"/>Comunicación: Puede hablar bien, pero le cuesta mantener una conversación fluida. Sus intentos de hacer amigos a veces fallan.</p>
+      <p className="flex mt-2"><IoArrowRedoOutline className="text-blue-500 text-5xl mr-2"/> Comportamiento: Algo rígido, le cuesta alternar actividades y organizarse, lo que afecta su independencia. </p>
+      
+      
+      </div>
+
+    </div>
+
+     
+
+  <div className="">
+   <h3 className="mt-10 text-3xl text-center text-blue-900 font-medium">Manifestaciones Clínicas</h3>
+
+
+  </div>
+
+
+
+     
       <p>Gran variabilidad en gravedad y síntomas.</p>
 
       <h4>Signos de alarma:</h4>
