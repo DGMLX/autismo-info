@@ -33,7 +33,7 @@ export default function Home() {
           <h2 className=" text-blue-700 text-2xl px-2 font-medium">Dato curioso</h2>
           <PiSealQuestion className="text-blue-500 text-4xl"/>
           </div>
-          <p className="mt-5 text-blue-900 font-medium text-center">Las mujeres no son diagnositcada en temprano edad debido a qué los “sintomas” las emascaran.</p>
+          <p className="mt-5 text-blue-900 font-medium text-center">Las mujeres no son diagnositcada en temprana edad debido a qué los “sintomas” las emascaran.</p>
 
           <p className="mt-10  text-blue-900 font-medium text-center" >¿Sabías que antes el TEA se medía por “grados”? Actualmente esto se formuló y fue dividido en “Necesidades de Apoyo”</p>
 
@@ -115,11 +115,6 @@ export default function Home() {
 </div>
 
 
-<div className="flex items-center px-5 mt-2">
-  <BiRightArrow className="mr-5 text-blue-800" size={24}/>
-  <p className="text-blue-900 font-medium">Pérdida de lenguaje o habilidades sociales a cualquier edad.</p>
-</div>
-
 
 <div className="flex items-center px-5 mt-2">
   <BiRightArrow className="mr-5 text-blue-800" size={24}/>
@@ -165,7 +160,7 @@ export default function Home() {
 <br />
 
 <p className="text-blue-800">
-  Retiro del entorno o adaptación del entorno, si a situación se vuelve muy intensa, es recomendable llevar al niño o niña a un lugar tranquilo y seguro.El retirar del entorno desencadenante de la crisis puede ayudar a evitar que la situación empeore.
+  Retiro del entorno o adaptación del entorno, si la situación se vuelve muy intensa, es recomendable llevar al niño o niña a un lugar tranquilo y seguro.El retirar del entorno desencadenante de la crisis puede ayudar a evitar que la situación empeore.
 </p>
 
 <br />
@@ -254,7 +249,7 @@ export default function Home() {
 
 <h2 className="text-center font-bold text-2xl mt-10 text-blue-800 mb-5">Punto Clave</h2>
  
-<p className="text-blue-800 pb-10 text-lg">Proporcionar un espacio físico acogedor y organizado puede ayudar a reducir la ansiedad y el estrés en las niños y niñas con Autismo.</p>
+<p className="text-blue-800 pb-10 text-lg">Proporcionar un espacio físico acogedor y organizado puede ayudar a reducir la ansiedad y el estrés en los niños y niñas con Autismo.</p>
 </div>
     </main>
   );
